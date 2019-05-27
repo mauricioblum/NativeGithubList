@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 import api from '~/services/api';
 import AsyncStorage from '@react-native-community/async-storage';
 
-import {
-  View, Text, ActivityIndicator, FlatList,
-} from 'react-native';
+import { View, ActivityIndicator, FlatList } from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
